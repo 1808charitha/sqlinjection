@@ -129,38 +129,5 @@ Ex: (union select null,load_file(‘/etc/passwd’),null,null,null).
 http://192.168.1.9/mutillidae/index.php?page=user-info.php&username=praveen%27union%20select%20null,load_file(%27/etc/passwd%27),null,null,null%23&password=&user-info-php-submit-button=View+Account+Details
 ![image](https://github.com/1808charitha/sqlinjection/assets/132996838/14c40630-fcd7-4006-9e5b-ffc1c5317bbd)
 the “INTO_OUTFILE()” operator for all that they offer and attempt to root the objective server by transferring a shell-code through SQL infusion. we will write a “Hello World!” sentence and output it in the “/tmp/” directory as a “hello.txt” file. This “Hello World!” sentence can be substituted with any PHP shell-code that you want to execute in the target server. Ex: (union select null,’Hello World!’,null,null,null into outfile ‘/tmp/hello.txt’).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## RESULT:
 The SQL Injection vulnerability is successfully exploited using the Multidae web application in Metasploitable2.
